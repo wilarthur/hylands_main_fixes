@@ -1,0 +1,83 @@
+/* Add underline to all links */
+
+a {
+  text-decoration: underline !important;
+}
+
+/* Add focus styling to all a tags */
+
+a:focus-visible {
+  border: 3px solid yellow !important;
+}
+
+/* Fix colour contrast for green (colour agreement tbc)*/
+
+/*
+
+.explore_green {
+    background-color: #767953 !important;
+}
+
+.explore_white h1, .explore_white h2 {
+    color: #767953 !important;
+}
+.explore_grey h1, .explore_grey h2 {
+    color: #696D4A !important;
+}
+.main_color a, .main_color .widget_first, .main_color strong, .main_color b, .main_color b a, .main_color strong a, .main_color #js_sort_items a:hover, .main_color #js_sort_items a.active_sort, .main_color .av-sort-by-term a.active_sort, .main_color .special_amp, .main_color .taglist a.activeFilter, .main_color #commentform .required, #top .main_color .av-no-color.av-icon-style-border a.av-icon-char, .html_elegant-blog #top .main_color .blog-categories a, .html_elegant-blog #top .main_color .blog-categories a:hover{
+  color: #696D4A !important;
+}
+
+*/
+
+/* Skip to main content button */
+
+.skip-to-main-content-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  opacity: 0;
+}
+.skip-to-main-content-link:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+/* Remove all caps */
+
+.template-page .entry-content-wrapper h1,
+.template-page .entry-content-wrapper h2,
+.av-image-caption-overlay-position p,
+​​ .main_color .primary-background,
+.main_color .primary-background a,
+div .main_color .button,
+.main_color #submit,
+.main_color input[type="submit"],
+.main_color .small-preview:hover,
+.main_color .avia-menu-fx,
+.main_color .avia-menu-fx .avia-arrow,
+.main_color.iconbox_top .iconbox_icon,
+.main_color .iconbox_top a.iconbox_icon:hover,
+.main_color .avia-data-table th.avia-highlight-col,
+.main_color .avia-color-theme-color,
+.main_color .avia-color-theme-color:hover,
+.main_color .image-overlay .image-overlay-inside::before,
+.main_color .comment-count,
+.main_color .av_dropcap2,
+#top #wrap_all .main_color .av-menu-button-colored > a .avia-menu-text,
+.main_color .av-colored-style .av-countdown-cell-inner,
+.responsive #top .main_color .av-open-submenu.av-subnav-menu > li > a:hover,
+#top .main_color .av-open-submenu.av-subnav-menu li > ul a:hover,
+.mychelms-news .avia-button,
+#footer h3,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none !important;
+  letter-spacing: 1px !important;
+}
