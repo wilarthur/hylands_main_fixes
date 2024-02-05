@@ -4,6 +4,12 @@ a {
   text-decoration: underline !important;
 }
 
+/* Remove underline from menu links */
+
+li[role="menuitem"] a {
+  text-decoration: none !important;
+}
+
 /* Add focus styling to all a tags */
 
 a:focus-visible {
@@ -12,22 +18,35 @@ a:focus-visible {
 
 /* Fix colour contrast for green (colour agreement tbc)*/
 
-
 .explore_green {
-    background-color: #767953 !important;
+  background-color: #767953 !important;
 }
 
-.explore_white h1, .explore_white h2 {
-    color: #767953 !important;
+.explore_white h1,
+.explore_white h2 {
+  color: #767953 !important;
 }
-.explore_grey h1, .explore_grey h2 {
-    color: #696D4A !important;
+.explore_grey h1,
+.explore_grey h2 {
+  color: #696d4a !important;
 }
-.main_color a, .main_color .widget_first, .main_color strong, .main_color b, .main_color b a, .main_color strong a, .main_color #js_sort_items a:hover, .main_color #js_sort_items a.active_sort, .main_color .av-sort-by-term a.active_sort, .main_color .special_amp, .main_color .taglist a.activeFilter, .main_color #commentform .required, #top .main_color .av-no-color.av-icon-style-border a.av-icon-char, .html_elegant-blog #top .main_color .blog-categories a, .html_elegant-blog #top .main_color .blog-categories a:hover{
-  color: #696D4A !important;
+.main_color a,
+.main_color .widget_first,
+.main_color strong,
+.main_color b,
+.main_color b a,
+.main_color strong a,
+.main_color #js_sort_items a:hover,
+.main_color #js_sort_items a.active_sort,
+.main_color .av-sort-by-term a.active_sort,
+.main_color .special_amp,
+.main_color .taglist a.activeFilter,
+.main_color #commentform .required,
+#top .main_color .av-no-color.av-icon-style-border a.av-icon-char,
+.html_elegant-blog #top .main_color .blog-categories a,
+.html_elegant-blog #top .main_color .blog-categories a:hover {
+  color: #696d4a !important;
 }
-
-
 
 /* Skip to main content button */
 
